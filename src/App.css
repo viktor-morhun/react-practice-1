@@ -1,0 +1,86 @@
+body {
+  font-size: 16px;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 1);
+  height: 48px;
+  padding: 0 27px;
+}
+
+.navigation {
+  display: flex;
+  gap: 19px;
+}
+
+.navigation__link {
+  width: 46px;
+  height: 28px;
+  background-color: rgba(231, 239, 214, 1);
+  display: inline-block;
+}
+
+.header__logo {
+  width: 200px;
+  height: 28px;
+  background-color: rgba(241, 242, 174, 1);
+}
+
+.hero__banner {
+  background-color: rgba(217, 217, 217, 1);
+  height: 145px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  gap: 70px;
+  width: 100%;
+}
+.blog {
+  background-color: rgba(217, 217, 217, 1);
+  height: auto;
+  width: 75%;
+  text-align: center;
+  padding: 17px 25px;
+}
+
+.blog__list {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  list-style: none;
+}
+
+.blog__element {
+  background-color: rgba(249, 215, 215, 1);
+  height: 70px;
+}
+
+.news {
+  background-color: rgba(217, 217, 217, 1);
+  height: auto;
+  width: 25%;
+  text-align: center;
+  padding: 17px 25px;
+}
+
+.news__container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.news__article {
+  height: 110px;
+  background-color: rgba(189, 205, 246, 1);
+}
