@@ -1,6 +1,4 @@
-
 function News() {
-
   return (
     <>
       <div className="news">
@@ -15,7 +13,7 @@ function News() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default News;

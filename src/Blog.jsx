@@ -1,5 +1,4 @@
 function Blog() {
-
   return (
     <>
       <div className="blog">
@@ -16,6 +15,7 @@ function Blog() {
         </ul>
       </div>
     </>
-  )}
+  );
+}
 
-  export default Blog
+export default Blog;
